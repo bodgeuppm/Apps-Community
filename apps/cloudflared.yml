@@ -13,7 +13,7 @@
     - name: 'Set Known Facts'
       set_fact:
         pgrole: 'cloudflared'
-        image: 'visibilityspots/cloudflared'
+        image: 'visibilityspots/cloudflared:amd64'
 
     # CORE (MANDATORY) ############################################################
     - name: 'Including cron job'
